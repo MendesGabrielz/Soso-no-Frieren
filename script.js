@@ -1,5 +1,5 @@
 
-function TextAnimation() {
+function AnimacaoTexto() {
   const titulo = document.querySelector('.texto-animado');
   const letras = titulo.innerText.split('');
   titulo.innerText = '';
@@ -14,4 +14,4 @@ function TextAnimation() {
   });
 }
 
-TextAnimation();
+AnimacaoTexto();

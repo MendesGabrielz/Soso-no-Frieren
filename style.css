@@ -70,12 +70,48 @@ body {
     }
 }
 
+.Teste{
+
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
 .Container-corpo {
 
     width: 50%;
     margin-top: 40px;
     margin-left: 80px;
+    text-align: justify;
 
+p{
+
+    font-size: 20px;
+}
+
+}
+
+.container-corpo-direita {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-frieren{
+
+    border-radius: 10%;
+    width: 400px;
+    
+}
+
+.imagem-frieren:hover{
+
+    transform: scale(1.01);
+    transition: transform 0.2s ease-in-out;
 }
 
 
